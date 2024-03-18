@@ -181,3 +181,62 @@
     font-size: 12px;
   }
 }
+@media (max-width: 600px) {
+  .navbar a {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .anchor-section {
+    display: block;
+    padding: 0px 20px;
+  }
+  .anchor-section .lorem1 {
+    padding: 20px 0px;
+    font-size: 40px;
+  }
+  
+  .anchor-section .img_first {
+    margin: 100px 0px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .anchor-section .anchor-content,.cup-section .cup-content{
+    margin: 0 10px;
+  }
+  .anchor-section .anchor-content .content1 {
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+  .anchor-section .anchor-content .content2 {
+    padding: 20px 20px;
+    font-size: 14px;
+  }
+  
+  .cup-section-bg {
+    display: block;
+    padding: 0px 20px;
+    background-color: rgb(200, 202, 209);
+    align-items: center;
+  }
+  
+  .cup-section-bg .img_second {
+    height: 300px;
+    width: 250px;
+    padding: 40px 20px;
+  }
+  
+  .cup-section .lorem2 {
+    padding: 15px 20px;
+    font-size: 40px;
+  }
+  .cup-section .content1 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .cup-section .content2 {
+    padding: 20px 20px;
+    font-size: 12px;
+  }
+}
