@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caladea", serif;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: rgb(230, 15, 15);
+  width: 100%;
+  box-shadow: 0px 1px 4px black;
+}
+
+.navbar a {
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+}
+#text_home {
+  background-color: white;
+  color: black;
+}
+
+.navbar a:hover {
+  color: rgb(9, 9, 9);
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  background-color: rgb(230, 15, 15);
+  padding: 100px 28px;
+  width: 100%;
+}
+.header .promotion {
+  padding: 30px;
+  color: white;
+}
+
+.header_text {
+  color: white;
+  font-size: 50px;
+}
+
+.header button {
+  color: white;
+  background-color: black;
+  padding: 12px 30px;
+}
+.header button:hover {
+  color: black;
+  background-color: rgb(220, 179, 179);
+}
+
+.anchor-section {
+  display: flex;
+  padding: 40px 90px;
+}
+.anchor-section .lorem1 {
+  padding: 5px 20px;
+  font-size: 40px;
+}
+
+.anchor-section .img_first {
+  margin: 30px 0px;
+  height: 200px;
+  width: 200px;
+}
+
+.anchor-section .anchor-content,.cup-section .cup-content{
+  margin: 0 100px;
+}
+.anchor-section .anchor-content .content1 {
+  padding: 0px 20px;
+  font-size: 16px;
+}
+.anchor-section .anchor-content .content2 {
+  padding: 20px 20px;
+  font-size: 14px;
+}
+
+.cup-section-bg {
+  display: flex;
+  padding: 40px 90px;
+  background-color: rgb(200, 202, 209);
+  align-items: center;
+}
+
+.cup-section-bg .img_second {
+  height: 300px;
+  width: 250px;
+  padding: 40px 20px;
+}
+
+.cup-section .lorem2 {
+  padding: 15px 20px;
+  font-size: 40px;
+}
+.cup-section .content1 {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.cup-section .content2 {
+  padding: 20px 20px;
+  font-size: 14px;
+}
+.text-container .end-container {
+  background-color: rgb(38, 33, 33);
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+}
+.text-container {
+  background-color: rgb(200, 202, 209);
+}
+.text-container .text_last {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.text-container .footer {
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 900px) {
+
+  .anchor-section {
+    display: flex;
+    padding: 0px 20px;
+  }
+  .anchor-section .lorem1 {
+    padding: 20px 0px;
+    font-size: 40px;
+  }
+  
+  .anchor-section .img_first {
+    margin: 100px 0px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .anchor-section .anchor-content,.cup-section .cup-content{
+    margin: 0 10px;
+  }
+  .anchor-section .anchor-content .content1 {
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+  .anchor-section .anchor-content .content2 {
+    padding: 20px 20px;
+    font-size: 14px;
+  }
+  
+  .cup-section-bg {
+    display: flex;
+    padding: 0px 20px;
+    background-color: rgb(200, 202, 209);
+    align-items: center;
+  }
+  
+  .cup-section-bg .img_second {
+    height: 300px;
+    width: 250px;
+    padding: 40px 20px;
+  }
+  
+  .cup-section .lorem2 {
+    padding: 15px 20px;
+    font-size: 40px;
+  }
+  .cup-section .content1 {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .cup-section .content2 {
+    padding: 20px 20px;
+    font-size: 12px;
+  }
+}
